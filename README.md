@@ -14,3 +14,8 @@ with this repo
 
 # is it normal to skip projects and begin a new course?? :
 it's not normal to skip projects because it is the foundation of a dev's future
+
+
+
+
+hope these projects help you
