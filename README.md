@@ -12,5 +12,5 @@ undrestand what project is about , try doing the project your self and check the
  
 with this repo
 
-# is it normal to skip projects and begin a new course? :
+# is it normal to skip projects and begin a new course?? :
 it's not normal to skip projects because it is the foundation of a dev's future
