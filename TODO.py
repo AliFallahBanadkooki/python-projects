@@ -8,13 +8,16 @@ class Task():
 
 class Todo():
     def __init__(self):
+    # made a place holder called LIST
         self.LIST = []
     
     def add (self , act):
+    #add function append the place holder
         self.LIST.append(act)
         return "task is added to the list"
     
     def remove (self , act ):
+    #remove function remove item from place holder
         for i in self.LIST:
 
             if i.name == act :
@@ -23,6 +26,7 @@ class Todo():
         return f"ERROR : {act} is  not found in the list!"
     
     def show(self):
+    # shows the list if its not empty
         if len(self.LIST) == 0 :
             return "no task found in the list"
         else:
@@ -34,15 +38,16 @@ class Todo():
             return result
                 
     def save(self):
+    #save your information in a CSV file
         with open ("TODOLIST.csv" , "w") as f:
             csvw = csv.writer(f)
             csvw.writerow(["name" , "description" , "priority"])
             for n in self.LIST:
                 csvw.writerow([n.name , n.descript , n.prior])
-
+#making an instance
 todo = Todo()
 
-
+#while loop stops when input is 5 ==> exit
 while True:
     h_input = int(input("-------------\n1.Add a task \n2.Remove a task \n3.Show all tasks \n4.Save \n5.Exit! \nwrite your choice: "))
 
