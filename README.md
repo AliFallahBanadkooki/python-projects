@@ -15,7 +15,7 @@ This project is a Python application created to practice and demonstrate:
 - Simple and easy-to-use interface
 - comments to guide you through
 
-## 🛠️ Built With
+## Built With
 
 - Python 3.14
 - libraries used:
