@@ -44,3 +44,5 @@ Feel free to fork this repository and make improvements.
 ## Author
 
 Ali Fallah
+## check out for more
+make sure to press the star button
